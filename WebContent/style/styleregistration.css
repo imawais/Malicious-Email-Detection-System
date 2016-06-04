@@ -1,0 +1,562 @@
+*/* CSS Document */
+{
+padding:0;
+margin:0;
+border:0;
+}
+body, html{
+color:#373C40;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+height: 97%;
+background-color: #f0f0f0;
+margin:1px;
+font-size:70%;
+}
+p{
+padding:7px 0 7px 0;
+font-weight:500;
+font-size:10pt;
+}
+a{
+color:#656565;
+/*text-decoration:none;*/
+text-decoration:underline;
+}
+a:hover{
+/*color:#abda0f;*/
+color:#FF0099;
+text-decoration:none;
+}
+h1{
+font-weight:200;
+color:#888888;
+font-size:16pt;
+background:transparent url(../img/h1.png) no-repeat center left;
+padding-left:33px;
+margin: 7px 5px 8px 8px;
+}
+h3{
+font-size:20px;
+text-align:center;
+background-color:#99CC66;
+-webkit-border-radius:5px;
+}
+h4{
+padding:1px;
+color:#ACACAC;
+font-size:9pt;
+font-weight:100;
+text-transform:uppercase;
+}
+form.register{
+width:800px;
+margin:20px auto 0px auto;
+height:530px;
+background-color:#fff;
+padding:5px;
+-moz-border-radius:20px;
+-webkit-border-radius:20px;
+}
+form p{
+font-size:8pt;
+clear:both;
+margin:0;
+color:gray;
+padding:4px;
+}
+form.register fieldset.row1{
+width:770px;
+padding:5px;
+float:left;
+border-top:1px solid #F5F5F5;
+margin-bottom:15px;
+}
+form.register fieldset.row1 label{
+width:140px;
+float:left;
+text-align:right;
+margin-right:6px;
+margin-top:2px;
+}
+form.register fieldset.row2{
+border-top:1px solid #F1F1F1;
+border-right:1px solid #F1F1F1;
+height:220px;
+padding:5px;
+float:left;
+}
+form.register fieldset.row3{
+border-top:1px solid #F1F1F1;
+padding:5px;
+float:left;
+margin-bottom:15px;
+width:400px;
+}
+form.register fieldset.row4{
+border-top:1px solid #F1F1F1;
+border-right:1px solid #F1F1F1;
+padding:5px;
+float:left;
+clear:both;
+width:500px;
+}
+form.register .infobox{
+float:right;
+margin-top:20px;
+border:1px solid #F1F1F1;
+padding;5px;
+width:380px;
+height:98px;
+font-size:9px;
+background:#FDFEFA url(../img/bg_infobox.gif) repeat-x top left;
+}
+form.register legend{
+color:#abda0f;
+padding:2px;
+margin-left:14px;
+font-weight:bold;
+font-size:14px;
+font-weight:100;
+}
+form.register label{
+color:#444;
+width:98px;
+float:left;
+text-align:right;
+margin-right:6px;
+margin-top:2px;
+}
+form.register label.optional{
+float:left;
+text-align:right;
+margin-right:6px;
+margin-top:2px;
+color:#A3A3A3;
+}
+form.register label.obinfo{
+float:right;
+padding:3px;
+font-style:italic;
+}
+form.register input{
+width:140px;
+color:#505050;
+float:left;
+margin-right:5px;
+}
+form.register input.long{
+width:247px;
+color:#505050;
+}
+form.register input.short{
+width:100px;
+color:#505050;
+}
+form.register input[type=radio]{
+float:left;
+width:15px;
+}
+form.register label.gender{
+margin-top:-1px;
+margin-bottom:2px;
+width:34px;
+float:left;
+text-align:left;
+line-height:19px;
+}
+form.register input[type=text]{
+/*border:1px solid #E1E1E1;*/
+border:1px solid #CCCCCC;
+height:18px;
+}
+form.register input[type=password]{
+/*border:1px solid #E1E1E1;*/
+border:1px solid #CCCCCC;
+height:18px;
+}
+.button{
+background:#abda0f url(../img/overlay.png) repeat-x;
+padding:8px 10px 8px;
+color:#fff;
+text-decoration:none;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.5);
+text-shadow:0 -1px 1px rgba(0,0,0,0.25);
+cursor:pointer;
+float:left;
+font-size:18px;
+margin:10px;
+}
+form.register input[type=text].year{
+border:1px solid #E1E1E1;
+height:18px;
+width:30px;
+}
+form.register input[type=checkbox]{
+width:14px;
+margin-top:4px;
+}
+form.register select{
+border:1px solid #E1E1E1;
+width:130px;
+float:left;
+margin-bottom:3px;
+color:#505050;
+margin-right:5px;
+}
+form.register select.date{
+width:40px;
+}
+form.register select.phone{
+width:48px;
+}
+input:focus, select:focus{
+background-color:#efffe0;
+}
+p.info{
+font-size:7pt;
+color:gray;
+}
+p.agreement{
+margin-left:15px;
+}
+p.agreement label{
+width:390px;
+text-align:left;
+margin-top:3px;
+}
+form.register input.mailid{
+width: 250px;
+}
+form.register fieldset.id{
+padding:100px;
+}
+form.register input.password{
+width:250px;
+}
+.login-button{
+cursor:pointer;
+background:#abda0f;
+color:#fff;
+font-size:20px;
+margin-left:300px;
+width:70px;
+border-radius:10px;
+-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+height:30px;
+}
+p.link a{
+color:#000066;
+padding-left:120px;
+text-decoration:underline;
+}
+form.compose{
+width:800px;
+margin:20px auto 0px auto;
+height:530px;
+background-color:#fff;
+padding:30px;
+-moz-border-radius:20px;
+-webkit-border-radius:20px;
+}
+form.compose label{
+color:#333333;
+float:left;
+}
+form.compose input[type=text]{
+border:1px solid #E1E1E1;
+height:18px;
+}
+form.compose input.sendtoid{
+width:400px;
+color:#505050;
+margin-left:40px;
+margin-right:40px;
+}
+form.compose input.bcc{
+width:400px;
+color:#505050;
+margin-left:35px;
+margin-right:40px;
+}
+form.compose input.subject{
+width:400px;
+color:#505050;
+margin-left:13px;
+margin-right:40px;
+}
+form.compose .message{
+margin-left:6px;
+border:1px solid #CCCCCC;
+padding-left:5px;
+width:600px;
+height:300px;
+font-size:15px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.send{
+cursor:pointer;
+background:#abda0f;
+color:#fff;
+font-size:20px;
+margin-left:80px;
+margin-top:10px;
+width:80px;
+border-radius:10px;
+-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+height:30px;
+padding:0px 5px 5px 5px;
+float:left;
+}
+form.compose input.AttachFile{
+margin-top:15px;
+margin-left:10px;
+}
+form.register p.home{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:white;
+font-size:40px;
+/*text-align:center;
+/*border:1px solid #CCCCCC;*/
+width:800px;
+/*margin-left:200px;
+margin-top:30px;*/
+/*background-color:#9999FF;*/
+}
+form.register p.member{
+padding-top:150px;
+font-size:8pt;
+float:left;
+width:200px;
+padding-left:40px;
+}
+form.register a.sign-in{
+font-size:15px;
+cursor:pointer;
+color:#9999ff;
+}
+form.register p.new{
+font-size:8pt;
+float:left;
+width:200px;
+padding-left:40px;
+}
+form.register a.sign-up{
+font-size:15px;
+cursor:pointer;
+color:#9999ff;
+}
+form.register img.image1{
+padding-top:60px;
+float:right;
+padding-right:60px;
+}
+form.register a.user-compose{
+padding-top:40px;
+padding-left:20px;
+}
+form.register a.user-send{
+padding-left:20px;
+}
+form.register a.user-draft{
+padding-left:20px;
+}
+/*===============================================User Menu================================*/
+.userMenu{
+width:850px;
+margin:20px 0px 0px 0px;
+height:570px;
+background-color:#fff;
+padding:0px 0px 0px 20px;
+padding-right:10px;
+-moz-border-radius:20px;
+-webkit-border-radius:20px;
+}
+.userMenu ul li.option{
+list-style-type:none;
+font-size:12px;
+margin:2px 2px 2px 2px;
+padding:2px 2px 2px 2px;
+float:left;
+width:100px;
+text-align:center;
+background-color:#CCCCCC;
+-webkit-border-radius:10px;
+}
+/*=======================Home=============================================================*/
+.backgroundAttributes{
+color:#373C40;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+width:890px;
+background-color:#CCFFCC;
+margin:5px 5px 5px 5px;
+height:695px;
+padding:0px 0px 0 px 0px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+}
+.logo{
+float:left;
+font-size:20px;
+padding:10px 10px 10px 40px;
+}
+.other-links{
+padding-top:10px;
+float:right;
+margin-right:10px;
+padding:10px;
+font-size:10px;
+}
+.navigation{
+float:left;
+background-color:#99CC66;
+width:860px;
+padding-right:20px;
+text-align:center;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+}
+.navigation li.navigator{
+list-style-type:none;
+font-size:20px;
+float:right;
+margin:5px 10px 5px 5px;
+text-align:center;
+padding:0px 18px 0px 20px;
+}
+.userOption{
+padding:120px 0px 0px 0px;
+}
+/*===============================================Main=======================================================*/
+frmaeset.frame frame1{
+height:500px;
+}
+/*===============================================News======================================================*/
+body.news{
+background-color:#CCFFCC;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+width:160px;
+margin:2px 2px 2px 2px;
+padding:2px 2px 2px 2px;
+height:690px;
+}
+/*================================================Links=====================================================*/
+body.links{
+text-align:center;
+background-color:#CCFFCC;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+width:160px;
+margin:2px 2px 2px 2px;
+padding:2px 2px 2px 2px;
+font-size:12px;
+height:690px;
+}
+/*======================================================Slider=======================================*/
+#sliderFrame 
+{
+padding:40px 0px 0px 0px;
+margin:auto;
+width:700px;
+}
+#slider div.sliderInner {
+width:700px;
+height:306px;/* Must be the same size as the slider images */
+}
+#slider {
+background:#fff url(loading.gif) no-repeat 50% 50%;
+position:relative;
+margin:0;
+transform: translate3d(0,0,0);
+box-shadow: 0px 1px 5px #999999;
+width:700px;
+height:200px;
+height:306px;
+}
+/* Caption styles */
+#slider div.mc-caption-bg, #slider div.mc-caption-bg2 {
+	position:absolute;
+	width:100%;
+	height:auto;
+	padding:10px 0;/* 10px will increase the height.*/
+	left:0px; /*if the caption needs to be aligned from right, specify by right instead of left. i.e. right:20px;*/
+	bottom:0px;/*if the caption needs to be aligned from top, specify by top instead of bottom. i.e. top:150px;*/
+	z-index:3;
+	overflow:hidden;
+	font-size: 0;
+}
+#slider div.mc-caption-bg 
+{
+    /* NOTE: Its opacity is to be set through the sliderOptions.captionOpacity setting in the js-image-slider.js file.*/
+	background:Black;/* or any other colors such as White, or: background:none; */
+}
+#slider div.mc-caption-bg2 {
+    background:none;
+}
+#slider div.mc-caption {
+	font: bold 14px/20px Arial;
+	color:#EEE;
+	z-index:4;
+	text-align:center;
+    background:none;
+}
+#slider div.mc-caption a {
+	color:#FB0;
+}
+#slider div.mc-caption a:hover {
+	color:#DA0;
+}
+
+
+/* ------ built-in navigation bullets wrapper ------*/
+/* Note: check themes\2\js-image-slider.css to see how to hide nav bullets */
+#slider div.navBulletsWrapper  {
+    top:320px;/* Its position is relative to the #slider */
+	text-align:center;
+	background:none;
+	position:relative;
+	z-index:5;
+}
+
+/* each bullet */
+#slider div.navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    font-size:0;color:White;/*hide the index number in the bullet element*/
+    background:transparent url(bullet.png) no-repeat 0 0;
+    display:inline-block; *display:inline; zoom:1;
+    overflow:hidden;cursor:pointer;
+    margin:0 6px;/* set distance between each bullet*/
+}
+
+#slider div.navBulletsWrapper div.active {background-position:0 -11px;}
+
+
+/* --------- Others ------- */
+
+#slider div.loading 
+{
+    width:100%; height:100%;
+    background:transparent url(loading.gif) no-repeat 50% 50%;
+    filter: alpha(opacity=60);
+    opacity:0.6;
+    position:absolute;
+    left:0;
+    top:0; 
+    z-index:9;
+}
+
+#slider img, #slider>b, #slider a>b {
+	position:absolute; border:none; display:none;
+}
+
+#slider div.sliderInner {
+	overflow:hidden; 
+	-webkit-transform: rotate(0.000001deg);/* fixed the Chrome not crop border-radius bug*/
+	position:absolute; top:0; left:0;
+}

@@ -1,0 +1,38 @@
+.headerWrapper {
+	margin: -5px -5px 0 -5px;
+	background-color: #1E90FF;
+	text-align: center;
+	
+}
+
+.header {
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	height: 50px;
+	width: 100%;
+	text-align: left;
+}
+
+.content {  
+	top: 20px;
+	position: relative;
+	width: 100%; 
+	height: 100%; 
+	background: white; 
+	padding: 5px; 
+	margin: 0 auto; 
+}
+
+#footer {
+	position: absolute;
+	top: 90%;
+	width: 100%;
+	background-color: white;
+	text-align: left;
+	border-top: 1px solid blue;
+	height: 20px;
+	margin-left: 1%;
+	font-size: 11px;
+	color: blue;
+}

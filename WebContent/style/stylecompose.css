@@ -1,0 +1,63 @@
+form.compose{
+width:800px;
+margin:20px auto 0px auto;
+height:530px;
+background-color:#fff;
+padding:30px;
+-moz-border-radius:20px;
+-webkit-border-radius:20px;
+}
+form.compose label{
+color:#333333;
+float:left;
+}
+form.compose input[type=text]{
+border:1px solid #E1E1E1;
+height:18px;
+}
+form.compose input.sendtoid{
+width:400px;
+color:#505050;
+margin-left:40px;
+margin-right:40px;
+}
+form.compose input.bcc{
+width:400px;
+color:#505050;
+margin-left:35px;
+margin-right:40px;
+}
+form.compose input.subject{
+width:400px;
+color:#505050;
+margin-left:13px;
+margin-right:40px;
+}
+form.compose .message{
+margin-left:6px;
+border:1px solid #CCCCCC;
+padding-left:5px;
+width:600px;
+height:300px;
+font-size:15px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.send{
+cursor:pointer;
+background:#abda0f;
+color:#fff;
+font-size:20px;
+margin-left:80px;
+margin-top:10px;
+width:80px;
+border-radius:10px;
+-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+height:30px;
+padding:0px 5px 5px 5px;
+float:left;
+}
+form.compose input.AttachFile{
+margin-top:15px;
+margin-left:10px;
+}

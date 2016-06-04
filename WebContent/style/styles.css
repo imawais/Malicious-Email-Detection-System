@@ -1,0 +1,52 @@
+#tabs {
+	float: right;
+	width: 30;
+	background: #EFF4FA;
+	font-size: 100%;
+	line-height: 30px; 
+	border-bottom: 1px solid #DD740B;
+}
+
+#tabs ul {
+	margin: 0;
+	padding: 10px 10px 0.05 20px;
+	list-style: none;
+}
+
+#tabs li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#tabs a {
+	float: right;
+	background: url("tableft.gif") no-repeat left top;
+	margin: 0;
+	padding: 0 0 0 5px;
+	text-decoration: none;
+}
+
+#tabs a span {
+	float: left;
+	display: block;
+	background: url("tabright.gif") no-repeat right top;
+	padding: 5px 15px 4px 6px;
+	color: #FFF;
+}
+
+#tabs a span {
+	float: none;
+}
+
+#tabs a:hover span {
+	color: #FFF;
+}
+
+#tabs a:hover {
+	background-position: 0% -42px;
+}
+
+#tabs a:hover span {
+	background-position: 100% -42px;
+}
